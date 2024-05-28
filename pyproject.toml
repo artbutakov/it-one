@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "it-one"
+version = "0.1.0"
+description = ""
+authors = ["artbutakov <art.butakov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+fastapi = "^0.111.0"
+pydantic = "^2.7.1"
+requests = "^2.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
